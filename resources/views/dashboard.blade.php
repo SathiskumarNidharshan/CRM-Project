@@ -16,9 +16,10 @@
                             <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Total Customers</p>
                             <h3 class="text-3xl font-semibold text-green-500">{{ $totalCustomers }}</h3>
                         </div>
-                        <div class="p-4 bg-green-100 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2 2 4-4 6 6 6-6 2 2"></path>
+                        <div class="p-4 bg-green-100 dark:bg-green-900 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87M15 11a4 4 0 10-6 0M12 5a3 3 0 110 6 3 3 0 010-6z" />
                             </svg>
                         </div>
                     </div>
@@ -33,7 +34,8 @@
                         </div>
                         <div class="p-4 bg-yellow-100 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2 2 4-4 6 6 6-6 2 2"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 14H7a2 2 0 01-2-2V7a2 2 0 012-2h10a2 2 0 012 2v5a2 2 0 01-2 2h-2m-4 0v4m0 0h4m-4 0H9" />
                             </svg>
                         </div>
                     </div>
@@ -46,9 +48,10 @@
                             <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Total Invoices</p>
                             <h3 class="text-3xl font-semibold text-red-500">{{ $totalInvoices }}</h3>
                         </div>
-                        <div class="p-4 bg-red-100 rounded-full">
+                        <div class="p-4 bg-red-100 dark:bg-red-900 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2 2 4-4 6 6 6-6 2 2"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 16H15M9 12H15M9 8H12M4 6V18C4 19.1 4.9 20 6 20H18C19.1 20 20 19.1 20 18V6C20 4.9 19.1 4 18 4H6C4.9 4 4 4.9 4 6Z" />
                             </svg>
                         </div>
                     </div>
@@ -61,9 +64,10 @@
                             <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Total Transactions</p>
                             <h3 class="text-3xl font-semibold text-blue-500">{{ $totalTransactions }}</h3>
                         </div>
-                        <div class="p-4 bg-red-100 rounded-full">
+                        <div class="p-4 bg-blue-100 dark:bg-blue-900 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2 2 4-4 6 6 6-6 2 2"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.1 0-2 .9-2 2v4H8v-4c0-2.2 1.8-4 4-4s4 1.8 4 4v4h-2v-4c0-1.1-.9-2-2-2z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16h16v2H4z"></path>
                             </svg>
                         </div>
                     </div>
